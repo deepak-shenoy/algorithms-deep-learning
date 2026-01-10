@@ -1,0 +1,19 @@
+#
+# Deepak Shenoy
+# January 2026
+#
+
+# Clion CMake
+**/cmake-build-debug/
+
+**/internal-docs          # internal proprietary
+
+**/cmake_install.cmake
+**/Testing
+**/Makefile
+**/.cmake
+**/CMakeFiles
+**/CMakeCache.txt
+
+**/.idea
+**/.DS_Store
