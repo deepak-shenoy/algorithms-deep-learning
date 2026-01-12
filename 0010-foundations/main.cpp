@@ -25,6 +25,6 @@ int main() {
         std::cout << (b?"TRUE": "FALSE") << "\n";
     };
 
-    std::for_each(comparators.begin(), comparators.end(), compare);
+    std::ranges::for_each(comparators, compare);
     return 0;
 }
